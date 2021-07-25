@@ -1,6 +1,6 @@
 # twatchbuilder-arduino
 
-Source code for the TWatchBuilder firmware (https://twatchbuilder.com) for the T-WATCH-2020 watch.
+Source code for the TWatchBuilder firmware for the T-WATCH-2020 watch. You can visit it on https://twatchbuilder.com
 
 ## Prerequisites
 To compile the code you need:
