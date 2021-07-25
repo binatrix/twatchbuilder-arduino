@@ -54,7 +54,7 @@ bool wifiOn() {
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
-    if (millis() - start_millis > 10000) {
+    if (millis() - start_millis > 30000) {
       return false;
     }
   }

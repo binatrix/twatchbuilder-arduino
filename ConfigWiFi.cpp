@@ -333,9 +333,9 @@ void ConfigWiFi::scan() {
     scan_list_size = n;
     scan_list = (wifi_data_t*)malloc(scan_list_size * sizeof(wifi_data_t));
     for (int i = 0; i < n; ++i) {
-      //      Serial.print(WiFi.SSID(i));
-      //      Serial.print(WiFi.RSSI(i));
-      //      Serial.println((WiFi.encryptionType(i) == WIFI_AUTH_OPEN) ? " " : "*");
+      serout(WiFi.SSID(i));
+      serout(WiFi.RSSI(i));
+      serout((WiFi.encryptionType(i) == WIFI_AUTH_OPEN) ? " " : "*");
       strcpy(scan_list[i].ssid, WiFi.SSID(i).c_str());
     }
   }
@@ -410,7 +410,7 @@ bool ConfigWiFi::check_connection (const char* ssid, const char* pass) {
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
-    if (millis() - start_millis > 10000) {
+    if (millis() - start_millis > 30000) {
       return false;
     }
   }

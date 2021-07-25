@@ -11,8 +11,8 @@
 #define TZ_OFFSET -4
 #define DST_OFFSET 1
 #define DEFAULT_SCREEN_TIMEOUT  10*1000    // Was 30* - Should reduce battery consumption.
-#define MAX_SSID_LEN 20
-#define MAX_PASS_LEN 20
+#define MAX_SSID_LEN 30
+#define MAX_PASS_LEN 30
 #define CANVAS_WIDTH  240
 #define CANVAS_HEIGHT  240
 #define LV_COLOR_MAIN LV_COLOR_WHITE
