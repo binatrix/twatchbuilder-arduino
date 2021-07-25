@@ -9,10 +9,10 @@ To compile the code you need:
 - The **TTGO T-Watch library** that you can download from here: https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library
 
 ## Installation
-- Download the code from repository
+- Clone or download the code from repository
 - Open the "twatchbuilder-arduino.ino" file in the Arduino IDE
 - Edit the "defines.h" file and set the T-Watch-2020 version do you want (LILYGO_WATCH_2020_V1, LILYGO_WATCH_2020_V2, LILYGO_WATCH_2020_V3)
-- Select the "TTGO T-Watch" board
+- Select the "TTGO T-Watch" board (this board is included when you install the **esp32** board)
 - Select the board revision. It depends on the watch's version.
 - Build the project
 - Install on your T-WATCH
