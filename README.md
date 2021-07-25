@@ -1,6 +1,6 @@
 # twatchbuilder-arduino
 
-Source code for the TWatchBuilder firmware (https://twatchbuilder.com)
+Source code for the TWatchBuilder firmware (https://twatchbuilder.com) for the T-WATCH-2020 watch.
 
 ## Prerequisites
 To compile the code you need to install the TTGO T-Watch library that you can download from here:
@@ -12,7 +12,7 @@ To compile the code you need to install the TTGO T-Watch library that you can do
 - Edit the "defines.h" file and set the T-Watch-2020 version do you want (LILYGO_WATCH_2020_V1, LILYGO_WATCH_2020_V2, LILYGO_WATCH_2020_V3)
 - Open the "MyWatch.ino" file in the Arduino IDE
 - Select the "TTGO T-Watch" board
-- Select the board revision
+- Select the board revision. It depends on the watch's version.
 - Build the project
 - Install on your T-WATCH
 
