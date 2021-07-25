@@ -10,8 +10,7 @@ To compile the code you need:
 
 ## Installation
 - Download the code from repository
-- Rename the folder to "MyWatch"
-- Open the "MyWatch.ino" file in the Arduino IDE
+- Open the "twatchbuilder-arduino.ino" file in the Arduino IDE
 - Edit the "defines.h" file and set the T-Watch-2020 version do you want (LILYGO_WATCH_2020_V1, LILYGO_WATCH_2020_V2, LILYGO_WATCH_2020_V3)
 - Select the "TTGO T-Watch" board
 - Select the board revision. It depends on the watch's version.
