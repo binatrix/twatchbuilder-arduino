@@ -5,7 +5,7 @@ TWatchBuilder firmware source code for the T-WATCH-2020 watch. You can visit our
 ## Prerequisites
 To compile the code you need:
 - Last Arduino IDE version. You can download from https://www.arduino.cc/en/software
-- The **esp32** board. You can follow this tutorial: https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
+- The **esp32** board. You can follow this tutorial to install it: https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
 - The **TTGO T-Watch library** that you can download from here: https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library
 
 ## Installation
