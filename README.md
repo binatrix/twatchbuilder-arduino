@@ -1,6 +1,6 @@
 # twatchbuilder-arduino
 
-Source code for the TWatchBuilder firmware (https://www.twatchbuilder.com)
+Source code for the TWatchBuilder firmware (https://twatchbuilder.com)
 
 ## Prerequisites
 To compile the code you need to install the TTGO T-Watch library that you can download from here:
