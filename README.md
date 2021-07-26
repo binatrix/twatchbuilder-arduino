@@ -19,3 +19,6 @@ To compile the code you need:
 
 ## Collaboration
 If you want to share new improvements or fix an bug, please make a Pull Request. Our team wil review it. **However, only changes that are in line with our vision will be included**.
+
+## Licensing
+GNU GENERAL PUBLIC LICENSE V3
