@@ -1,3 +1,5 @@
+> Sorry folks, twatchbuilder is not longer available
+
 # twatchbuilder-arduino
 
 TWatchBuilder firmware source code for the T-WATCH-2020 watch. You can visit our project on https://twatchbuilder.com
